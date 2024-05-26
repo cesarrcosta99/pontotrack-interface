@@ -1,5 +1,10 @@
-function Home() {
-	return <h1>Olá César,Desenvolvedor Full Stack na Ponto Track</h1>;
-}
+import { Header } from '../../components/Header';
+import { Container } from './styles';
 
-export default Home;
+export function Home() {
+	return (
+		<Container>
+			<Header />
+		</Container>
+	);
+}

@@ -3,10 +3,21 @@
 	"organizeImports": {
 		"enabled": true
 	},
+	"javascript":{
+		"formatter":{
+           "quoteStyle":"single",
+		   "trailingComma":"all",
+		   "semicolons":"always",
+		   "arrowParentheses":"always"
+		}
+	},
 	"linter": {
 		"enabled": true,
 		"rules": {
-			"recommended": true
+			"recommended": true,
+			"security":{
+				"noDangerouslySetInnerHtml":"off"
+			}
 		}
 	}
 }

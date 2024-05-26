@@ -1,9 +1,16 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import Home from "./containers/Home";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { ToastContainer } from 'react-toastify';
+import { UserProvider } from './hooks/UserContext';
+import MyRoutes from './routes/routes';
+import GlobalStyles from './styles/globalStyles';
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+ReactDOM.createRoot(document.getElementById('root')).render(
 	<React.StrictMode>
-		<Home />
+		<UserProvider>
+			<MyRoutes />
+		</UserProvider>
+		<ToastContainer autoClose={2000} theme="colored" />
+		<GlobalStyles />
 	</React.StrictMode>,
 );
