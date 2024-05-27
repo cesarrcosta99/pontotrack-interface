@@ -8,8 +8,8 @@ Este projeto é a parte de front-end de uma plataforma de rastreamento de veícu
 - Axios: Para realizar chamadas à API.
 - React Toastify: Para exibição de notificações.
 - Yup e React Hook Form: Para validação e manipulação de formulários.
--Leaflet: Biblioteca de mapas interativos.
--Styled Components: Para estilização dos componentes.
+- Leaflet: Biblioteca de mapas interativos.
+- Styled Components: Para estilização dos componentes.
 
 # Funcionalidades
 - Login e Cadastro de Usuário
