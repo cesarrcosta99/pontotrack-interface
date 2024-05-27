@@ -18,12 +18,12 @@ Este projeto é a parte de front-end de uma plataforma de rastreamento de veícu
   
 # Como Executar o Projeto
 1) Clone o Repositório:
-   - git clone https://github.com/seu-usuario/seu-repositorio.git
+   - git clone 
    - cd seu-repositorio
 2) Instale as Dependências:
    - npm install
 3) Inicie o Servidor de Desenvolvimento:
-   npm start
+   - npm start
 4) Acesse a Aplicação:
 
 # Configuração da API
