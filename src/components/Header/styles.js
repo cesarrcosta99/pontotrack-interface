@@ -65,6 +65,41 @@ export const Container = styled.div`
 
         
     }
+
+    @media (max-width: 500px) {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20px;
+        padding-top: 20px;
+
+        .logo {
+            width: 140px;
+            margin-bottom: 20px;
+        }
+
+        .secondcontainer, .terceirocontainer {
+            flex-direction: column;
+            margin-left: 0;
+            margin-right: 0;
+            align-items: flex-start;
+
+            .localizacao, .telefonedois {
+                margin: 0;
+            }
+
+            h3, h4 {
+                font-size: 14px;
+            }
+        }
+
+        .secondcontainer {
+            margin-bottom: 20px;
+        }
+
+        .terceirocontainer {
+            margin-bottom: 20px;
+        }
+    }
 `;
 
 export const Button = styled.button`
@@ -79,6 +114,12 @@ export const Button = styled.button`
     &:hover {
         opacity:0.6;
     }
+
+    @media (max-width: 430px) {
+        width: 120px;
+        padding: 6px;
+        margin-bottom: 10px;
+    }
 `;
 
 export const Butao = styled.button`
@@ -91,5 +132,10 @@ export const Butao = styled.button`
 
     &:hover {
        opacity:0.6;
+    }
+
+    @media (max-width: 430px) {
+        width: 70px;
+        padding: 8px;
     }
 `;

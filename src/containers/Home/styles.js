@@ -7,4 +7,8 @@ export const Container = styled.div`
     background-position:center;
     height:100vh;
     width: 100%; 
+
+    @media (max-width: 500px) {
+        height: 932px;
+    }
 `;
