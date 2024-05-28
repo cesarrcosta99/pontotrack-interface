@@ -67,10 +67,9 @@ export const Container = styled.div`
     }
 
     @media (max-width: 500px) {
-        flex-direction: column;
         align-items: flex-start;
-        padding-left: 20px;
-        padding-top: 20px;
+        padding-left: 12px;
+        padding-top: 16px;
 
         .logo {
             width: 140px;
