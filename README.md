@@ -1,7 +1,6 @@
 ## Plataforma de Rastreamento de Veículos - Front-end
 
 Este projeto é a parte de front-end de uma plataforma de rastreamento de veículos, desenvolvida utilizando React. Ele permite que os usuários façam login, cadastrem-se, registrem veículos e visualizem a localização dos veículos.
-git fetch
 # Tecnologias Utilizadas
 - React: Biblioteca JavaScript para construção de interfaces de usuário.
 - React Router: Para navegação entre páginas.
