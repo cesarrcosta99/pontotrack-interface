@@ -6,7 +6,7 @@ export const Container = styled.div`
     background-size:cover;
     background-position:center;
     height:100vh;
-    width: 100vw; 
+    width: 100%; 
 
     @media (max-width: 500px) {
         height: 932px;
